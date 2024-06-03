@@ -8,4 +8,4 @@ const DetailSidebar = () => {
   );
 };
 
-export default Sidebar;
+export default DetailSidebar;
