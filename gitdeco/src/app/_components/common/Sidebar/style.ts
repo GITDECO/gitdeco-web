@@ -2,7 +2,11 @@
 
 import styled from "styled-components";
 
+export const Container = styled.div`
+  display: flex;
+`;
 export const SidebarContainer = styled.div`
+  z-index: 999;
   position: relative;
   width: 5vw;
   height: 92vh;
@@ -14,7 +18,7 @@ export const SidebarContainer = styled.div`
   align-items: center;
 `;
 
-export const IconWraper = styled.div`
+export const IconWrapper = styled.div`
   margin-top: 5vh;
   height: 20vh;
   display: flex;
@@ -28,4 +32,11 @@ export const IconWraper = styled.div`
       color 0.3s ease,
       transform 0.3s ease;
   }
+`;
+
+export const LoadingIcon = styled.div`
+  display: "flex";
+  justify-content: "center";
+  align-items: "center";
+  height: "100vh";
 `;
