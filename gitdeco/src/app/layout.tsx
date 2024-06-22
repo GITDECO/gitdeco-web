@@ -18,8 +18,10 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Header />
-        <Sidebar />
-        <main>{children}</main>
+        <div style={{ display: "flex" }}>
+          <Sidebar />
+          <main>{children}</main>
+        </div>
       </body>
     </html>
   );

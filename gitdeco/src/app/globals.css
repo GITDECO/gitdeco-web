@@ -76,11 +76,9 @@ body {
   font-family: "Pretendard";
   margin: 0px;
   background-color: #0d1117;
-  overflow: hidden;
 }
 
 main {
-  position: absolute;
-  top: 100px;
-  left: 50px;
+  width: 100%;
+  background-color: white;
 }
